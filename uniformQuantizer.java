@@ -19,7 +19,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 
-public class uniformQuantizer {
+public class UniformQuantizer {
 
 	private JFrame frame;
 	private JTextField textField;
@@ -31,7 +31,7 @@ public class uniformQuantizer {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					uniformQuantizer window = new uniformQuantizer();
+					UniformQuantizer window = new UniformQuantizer();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -43,7 +43,7 @@ public class uniformQuantizer {
 	/**
 	 * Create the application.
 	 */
-	public uniformQuantizer() {
+	public UniformQuantizer() {
 		initialize();
 	}
 
